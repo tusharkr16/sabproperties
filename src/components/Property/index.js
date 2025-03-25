@@ -9,28 +9,26 @@ const ProjectsCarousel = () => {
   const projects = [
     {
       img: "https://static.wixstatic.com/media/380dc7_c7edea62bbdf47b5bb8d90a03b9167b9~mv2.jpg/v1/fill/w_512,h_384,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/380dc7_c7edea62bbdf47b5bb8d90a03b9167b9~mv2.jpg",
-      title: "D-105, Saket, Delhi",
-      details: "Completed Projects, Grovy Projects, Saket",
+      title: "6 Seater Cabin - 240sqft",
     },
     {
       img: "https://static.wixstatic.com/media/380dc7_7f7f9d3c25684c919030cf560e289f28~mv2.jpg/v1/fill/w_512,h_384,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/380dc7_7f7f9d3c25684c919030cf560e289f28~mv2.jpg",
-      title: "S-235, Greater Kailash-2, Delhi",
-      details: "Greater Kailash, Grovy Projects, Ongoing Projects",
+      title: "2 seater Cabin - 160sqft",
     },
     {
       img: "https://static.wixstatic.com/media/380dc7_5f14ed793a7a4d629592db2bfab8396f~mv2.jpeg/v1/fill/w_512,h_384,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/380dc7_5f14ed793a7a4d629592db2bfab8396f~mv2.jpeg",
-      title: "S-396, Greater Kailash",
-      details: "Completed Projects, Greater Kailash",
+      title: "3 seater Cabin - 120sqft",
+      
     },
     {
         img: "https://static.wixstatic.com/media/380dc7_28f1a1cd91544ec6abdb92416d943b98~mv2.jpg/v1/fill/w_512,h_384,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/380dc7_28f1a1cd91544ec6abdb92416d943b98~mv2.jpg",
-        title: "S-396, Greater Kailash",
-        details: "Completed Projects, Greater Kailash",
+        title: "Offices- 360sqft",
+        
       },
       {
         img: "https://static.wixstatic.com/media/380dc7_26f96d908c304787a48b9ba206e49cfe~mv2.jpg/v1/fill/w_512,h_384,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/380dc7_26f96d908c304787a48b9ba206e49cfe~mv2.jpg",
-        title: "S-396, Greater Kailash",
-        details: "Completed Projects, Greater Kailash",
+        title: "Office Space -1100sqft",
+        
       },
   ];
 
@@ -43,10 +41,7 @@ const ProjectsCarousel = () => {
             Continues to be the trendsetter.
           </h2>
           <p className="text-gray-300 mt-4">
-            Equipped with teams of skilled and experienced engineers, architects, 
-            planners, and designers, Grovy has established itself as developers of 
-            ‘Boutique Apartments’. Grovy India Ltd. has delivered a number of 
-            projects successfully since its inception.
+          Facilitating smooth leasing and sale transactions for office spaces, retail outlets, warehouses, and industrial properties.
           </p>
         </div>
 

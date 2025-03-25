@@ -4,6 +4,7 @@ import { FaFacebookF, FaLinkedinIn, FaXTwitter, FaInstagram } from "react-icons/
 import { FiMenu } from "react-icons/fi";
 import { IoMdClose } from "react-icons/io";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,19 +14,29 @@ export default function Navbar() {
       <div className="container mx-auto flex items-center justify-between p-4">
         {/* Logo */}
         <div className="text-2xl font-bold flex items-center">
+          <Link href='/'>
+          
           <span className="text-gold">SAB</span>PROPERTIES
+          </Link>
         </div>
-        
+
         {/* Desktop Menu */}
         <nav className="hidden md:flex space-x-6 text-sm uppercase">
-          <a href="#" className="hover:text-gold">About Us</a>
-          <a href="#" className="hover:text-gold">Properties</a>
-          <a href="#" className="hover:text-gold">Research Center</a>
-          <a href="#" className="hover:text-gold">Strategic Consulting</a>
-          <a href="#" className="hover:text-gold">Career</a>
-          <a href="#" className="hover:text-gold">Contact Us</a>
+          <Link href='/about-us' className="hover:text-gold">
+          About Us
+          </Link>
+          <Link href='https://www.22workspace.com/' className="hover:text-gold">
+          Co-work
+          </Link>
+          <Link href='/properties' className="hover:text-gold">
+          Properties
+          </Link>
+          <Link href="/contact" className="hover:text-gold">
+            Contact Us
+          </Link>
+
         </nav>
-        
+
         {/* Social & Contact */}
         {/* <div className="hidden md:flex items-center space-x-4">
           <span>📞 +91-9810020766</span>
