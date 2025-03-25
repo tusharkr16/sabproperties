@@ -67,6 +67,8 @@ const ProjectsCarousel = () => {
                 <Image
                   src={project.img}
                   alt={project.title}
+                  width={512} // Set image width
+                  height={384}
                   className="w-full h-64 object-cover rounded-md"
                 />
                 <h3 className="mt-4 font-bold">{project.title}</h3>

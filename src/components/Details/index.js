@@ -38,6 +38,8 @@ const CompanyProfile = () => {
             src="https://static.wixstatic.com/media/380dc7_26f96d908c304787a48b9ba206e49cfe~mv2.jpg/v1/fill/w_512,h_384,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/380dc7_26f96d908c304787a48b9ba206e49cfe~mv2.jpg" // Replace with actual image path
             alt="Real Estate"
             className="w-full h-auto object-cover rounded-md"
+            width={512}
+            height={384}
           />
           
         </div>

@@ -33,6 +33,8 @@ The company boasts a team of experienced real estate professionals who possess i
             src="https://static.wixstatic.com/media/380dc7_5f14ed793a7a4d629592db2bfab8396f~mv2.jpeg/v1/fill/w_512,h_384,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/380dc7_5f14ed793a7a4d629592db2bfab8396f~mv2.jpeg" // Replace with actual image path
             alt="Real Estate"
             className="w-full h-auto object-cover rounded-md"
+            width={512} // Set image width
+            height={384}
           />
           
         </div>
