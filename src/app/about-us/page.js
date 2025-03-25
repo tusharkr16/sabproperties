@@ -43,7 +43,7 @@ const About = () => {
 
                     <div className="relative hidden lg:block">
 
-                        <img
+                        <Image
                             src="https://images.pexels.com/photos/29683336/pexels-photo-29683336/free-photo-of-san-francisco-city-hall-on-a-cloudy-day.jpeg?auto=compress&cs=tinysrgb&w=600" // Replace with actual image path
                             alt="Real Estate"
                             className="w-full h-auto object-cover rounded-md"
@@ -57,7 +57,7 @@ const About = () => {
                     {/* Left Section: Text Content */}
                     <div className="relative">
 
-                        <img
+                        <Image
                             src="https://static.wixstatic.com/media/380dc7_e4e6b670c2694b909abcea753ceb21f1~mv2.jpg/v1/fill/w_378,h_414,al_c,lg_1,q_80,enc_avif,quality_auto/sanjay%2520gupta%2520compressed_edited.jpg" // Replace with actual image path
                             alt="Real Estate"
                             className="w-[350px] h-[350px] lg:ms-24 rounded-md"

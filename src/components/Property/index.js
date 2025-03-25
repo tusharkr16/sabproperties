@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
+import Image from "next/image";
 
 const ProjectsCarousel = () => {
   const projects = [
@@ -63,7 +64,7 @@ const ProjectsCarousel = () => {
           >
             {projects.map((project, index) => (
               <SwiperSlide key={index} className="text-center">
-                <img
+                <Image
                   src={project.img}
                   alt={project.title}
                   className="w-full h-64 object-cover rounded-md"

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Services = () => {
     return (
       <>
@@ -15,7 +17,7 @@ const Services = () => {
 
 The company boasts a team of experienced real estate professionals who possess in-depth industry knowledge and negotiation skills. Their expertise ensures that clients receive the best deals and unparalleled service. </p>
           <p className="text-gray-700 mt-4">
-          Integrity and transparency are at the core of SAB Properties' operations. Every transaction is conducted with honesty, ensuring that clients are well-informed and protected from potential risks. </p>
+          Integrity and transparency are at the core of SAB Properties operations. Every transaction is conducted with honesty, ensuring that clients are well-informed and protected from potential risks. </p>
           <p className="text-gray-700 mt-4">
           With years of experience in the industry, SAB Properties possesses an in-depth understanding of market trends, property valuations, and investment opportunities, allowing clients to make sound financial decisions.
           </p>
@@ -27,7 +29,7 @@ The company boasts a team of experienced real estate professionals who possess i
         {/* Right Section: Image with Overlay */}
         <div className="relative">
           
-          <img
+          <Image
             src="https://static.wixstatic.com/media/380dc7_5f14ed793a7a4d629592db2bfab8396f~mv2.jpeg/v1/fill/w_512,h_384,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/380dc7_5f14ed793a7a4d629592db2bfab8396f~mv2.jpeg" // Replace with actual image path
             alt="Real Estate"
             className="w-full h-auto object-cover rounded-md"
