@@ -1,6 +1,9 @@
+"use client"
 import React from "react";
+import { useRouter } from "next/navigation";
 
 const HeroSection = () => {
+  const router = useRouter();
   return (
     <section className=" flex flex-col lg:relative w-full min-h-[500px] md:min-h-[600px]  lg:h-screen flex items-center justify-center text-white">
       {/* Video Background */}
@@ -26,10 +29,10 @@ const HeroSection = () => {
         <h2 className="text-lg md:text-2xl mb-6">Find your property</h2>
         
         <div className="flex flex-wrap justify-center gap-3">
-          <button className="px-4 py-2 border border-yellow-600  text-white rounded cursor-pointer hover:bg-yellow-800">Co Work</button>
-          <button className="px-4 py-2 border border-yellow-600 text-white rounded cursor-pointer hover:bg-yellow-800">Godown</button>
-          <button className="px-4 py-2 border border-yellow-600 text-white rounded cursor-pointer hover:bg-yellow-800">Shop</button>
-          <button className="px-4 py-2 border border-yellow-600 text-white rounded cursor-pointer hover:bg-yellow-800">Showroom</button>
+          <button className="px-4 py-2 border border-yellow-600  text-white rounded cursor-pointer hover:bg-yellow-800" onClick={()=>router.push('/properties/Cowork')}>Co Work</button>
+          <button className="px-4 py-2 border border-yellow-600 text-white rounded cursor-pointer hover:bg-yellow-800" onClick={()=>router.push('/properties/Godown')}>Godown</button>
+          <button className="px-4 py-2 border border-yellow-600 text-white rounded cursor-pointer hover:bg-yellow-800" onClick={()=>router.push('/properties/Office')}>Office</button>
+          <button className="px-4 py-2 border border-yellow-600 text-white rounded cursor-pointer hover:bg-yellow-800" onClick={()=>router.push('/properties/Showroom')}>Showroom</button>
         </div>
       </div>
     </section>

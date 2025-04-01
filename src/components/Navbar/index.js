@@ -28,7 +28,7 @@ export default function Navbar() {
           <Link href='https://www.22workspace.com/' className="hover:text-gold">
           Co-work
           </Link>
-          <Link href='/properties' className="hover:text-gold">
+          <Link href='/properties/Cowork' className="hover:text-gold">
           Properties
           </Link>
           <Link href="/contact" className="hover:text-gold">
