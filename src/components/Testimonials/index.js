@@ -11,28 +11,28 @@ export function Testimonials() {
   const testimonials = [
     {
       title: "Warehouse Purchase in NCR",
-      content: "Our growing business needed a large warehouse in the NCR region, and Jain Estates was the perfect partner. Their expertise made the entire process straightforward and hassle-free.",
+      content: "Our growing business needed a large warehouse in the NCR region, and Sab Properties was the perfect partner. Their expertise made the entire process straightforward and hassle-free.",
       author: "Vivek Patel",
       role: "Logistics Manager",
       verified: true
     },
     {
       title: "Office Space for Rent in Delhi",
-      content: "I was looking to rent office space in Delhi, and Jain Estates came highly recommended. The lease terms were fair, and the support from their team was outstanding.",
+      content: "I was looking to rent office space in Delhi, and Sab Properties came highly recommended. The lease terms were fair, and the support from their team was outstanding.",
       author: "Suman Arora",
       role: "Entrepreneur",
       verified: true
     },
     {
       title: "Commercial Property Investment",
-      content: "As a first-time commercial property investor, I was nervous about the process. Jain Estates guided me through every step, explaining all the details clearly.",
+      content: "As a first-time commercial property investor, I was nervous about the process. Sab Properties guided me through every step, explaining all the details clearly.",
       author: "Rajesh Mehta",
       role: "Investor",
       verified: true
     },
     {
       title: "Retail Space Acquisition",
-      content: "Finding the perfect retail location in Mumbai was challenging until we worked with Jain Estates. Their market knowledge and negotiation skills secured us a prime location.",
+      content: "Finding the perfect retail location in Mumbai was challenging until we worked with Sab Properties. Their market knowledge and negotiation skills secured us a prime location.",
       author: "Priya Sharma",
       role: "Retail Chain Owner",
       verified: true
