@@ -29,7 +29,7 @@ const HeroSection = () => {
         loop
         muted
         playsInline
-        className="lg:absolute top-0 left-0 w-full h-[540px] lg:h-full object-cover"
+        className="lg:absolute top-0 left-0 w-full h-[412px] lg:h-full object-cover"
       >
         <source
           src="https://videos.pexels.com/video-files/6950312/6950312-uhd_2560_1440_30fps.mp4"
