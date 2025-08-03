@@ -73,38 +73,8 @@ const HeroSection = () => {
           </button>
         </div>
 
-        {/* Dropdown Filter - Now positioned below buttons */}
-        <div className="relative w-full max-w-md mx-auto">
-          <button
-            onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-            className="w-full px-4 py-3 bg-white/10 border border-yellow-600 text-white rounded-lg flex justify-between items-center hover:bg-white/20 transition-colors"
-          >
-            <span>{selectedProperty}</span>
-            <svg
-              className={`w-5 h-5 ml-2 transition-transform ${isDropdownOpen ? "rotate-180" : ""}`}
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-            </svg>
-          </button>
-          
-          {isDropdownOpen && (
-            <div className="absolute z-20 w-full mt-1 bg-black/90 border border-yellow-600 rounded-lg shadow-lg">
-              {propertyTypes.map((property) => (
-                <div
-                  key={property.value}
-                  className="px-4 py-3 cursor-pointer hover:bg-yellow-800/50 transition-colors"
-                  onClick={() => handlePropertySelect(property)}
-                >
-                  {property.label}
-                </div>
-              ))}
-            </div>
-          )}
-        </div>
+        
+       
       </div>
     </section>
   );

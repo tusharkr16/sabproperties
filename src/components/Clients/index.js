@@ -79,11 +79,11 @@ export function ClientMarquee() {
                                         <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
                                     ))}
                                 </div>
-                                <p className="text-gray-600 text-sm text-center italic">&quot;{client.testimonial}&quot;</p>
+                                {/* <p className="text-gray-600 text-sm text-center italic">&quot;{client.testimonial}&quot;</p> */}
                             </div>
                         ))}
                     </Marquee>
-                    <Marquee
+                    {/* <Marquee
                         speed={50}
                         gradient={true}
                         gradientColor={[248, 250, 252]}
@@ -111,7 +111,7 @@ export function ClientMarquee() {
                                 <p className="text-gray-600 text-sm text-center italic">&quot;{client.testimonial}&quot;</p>
                             </div>
                         ))}
-                    </Marquee>
+                    </Marquee> */}
                 </div>
             </div>
         </section>
